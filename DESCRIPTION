@@ -1,4 +1,5 @@
 Package: dataInspector
+<<<<<<< HEAD
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
@@ -12,3 +13,24 @@ RoxygenNote: 7.3.3
 Depends: 
     R (>= 3.5)
 LazyData: true
+=======
+Title: Comprehensive Data Analysis and Modeling Suggestions
+Version: 0.1.0
+Authors@R: person("Your", "Name", email = "your.email@example.com", role = c("aut", "cre"))
+Description: Provides tools for comprehensive data exploration and generates suggestions for appropriate modeling approaches based on data characteristics.
+License: MIT + file LICENSE
+Depends: R (>= 3.5.0)
+Imports: 
+    ggplot2,
+    gridExtra,
+    moments
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+
+Imports: 
+    ggplot2,
+    gridExtra,
+    moments
+>>>>>>> 7f7cc16af083c5156ae6c30257b88c2d6b9eb9a4

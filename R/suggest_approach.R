@@ -6,6 +6,8 @@
 #' @examples
 #' report <- report_data(iris)
 #' suggest_approach(report)
+#' @importFrom stats rnorm rexp
+NULL
 suggest_approach <- function(data_report) {
   # If a data frame is passed, generate report first
   if (is.data.frame(data_report)) {
