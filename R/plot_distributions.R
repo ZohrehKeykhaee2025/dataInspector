@@ -6,9 +6,7 @@
 #' @export
 #' @examples
 #' plot_distributions(iris)
-#' @importFrom ggplot2 ggplot aes geom_histogram geom_bar theme_minimal labs theme element_text
-#' @importFrom gridExtra grid.arrange
-NULL
+
 plot_distributions <- function(data, column = NULL) {
   if (!is.data.frame(data)) {
     stop("Input must be a data frame")
