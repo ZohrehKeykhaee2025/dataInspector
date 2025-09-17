@@ -120,3 +120,15 @@ print.data_report <- function(x, ...) {
   invisible(x)
 }
 
+
+#' Print method for data_report objects
+#'
+#' @param x A data_report object
+#' @param ... Additional arguments (not used)
+#' @export
+#' @examples
+#' report <- report_data(iris)
+#' print(report)
+print.data_report <- function(x, ...) {
+  # Function body
+}
