@@ -5,9 +5,7 @@
 #' @export
 #' @examples
 #' report_data(iris)
-#' @importFrom moments skewness kurtosis
-#' @importFrom stats median sd quantile
-NULL
+
 report_data <- function(data) {
   if (!is.data.frame(data)) {
     stop("Input must be a data frame")
