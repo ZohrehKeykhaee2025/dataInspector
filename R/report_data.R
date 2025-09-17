@@ -116,3 +116,6 @@ print.data_report <- function(x, ...) {
   
   invisible(x)
 }
+#' @importFrom moments skewness kurtosis
+#' @importFrom stats median sd quantile
+NULL
