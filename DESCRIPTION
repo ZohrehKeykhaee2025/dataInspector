@@ -1,5 +1,5 @@
 Package: dataInspector
-<<<<<<< HEAD
+
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
@@ -13,7 +13,7 @@ RoxygenNote: 7.3.3
 Depends: 
     R (>= 3.5)
 LazyData: true
-=======
+
 Title: Comprehensive Data Analysis and Modeling Suggestions
 Version: 0.1.0
 Authors@R: person("Your", "Name", email = "your.email@example.com", role = c("aut", "cre"))
@@ -33,4 +33,4 @@ Imports:
     ggplot2,
     gridExtra,
     moments
->>>>>>> 7f7cc16af083c5156ae6c30257b88c2d6b9eb9a4
+
