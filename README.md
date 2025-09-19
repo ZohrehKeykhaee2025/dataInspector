@@ -238,7 +238,7 @@ Documentation: Full documentation
 
 Issues: GitHub Issues
 
-Email: zohreh.keykhaee@example.com
+Email: keykhaeezohreh@gmail.com
 
 Discussions: GitHub Discussions
 
